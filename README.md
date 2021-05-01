@@ -6,7 +6,7 @@ Finally I had the opportunity to look at discord.py and after 1 day of research 
 
 Have a good day...
 
-"_**Özgür yazılım, Özgür topluluk"
+"**_Özgür yazılım, Özgür topluluk_**"
 
 Commands;
 
