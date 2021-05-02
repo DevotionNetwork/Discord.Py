@@ -1,4 +1,4 @@
-# Python ile bot geliştirmeye başlayanlar için piskopos tarafından geliştirilen basit bir discord botu!
+**Python ile bot geliştirmeye başlayanlar için piskopos tarafından geliştirilen basit bir discord botu!**
 
 • Sonunda piskopos NoneType D.Py kütüphanesine bakma fırsatı oldu ve üzerinde çalışmalara başladı.
 
