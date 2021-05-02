@@ -11,7 +11,7 @@ bot = commands.Bot(command_prefix="*", intents=intents)
 @bot.event
 async def on_ready():  # Bot'un çalıştığını anlamamız için konsola bir yazı basar ve bot'un durumunu ayarlar.
     await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name=ReadyStatus))
-    print('Access Granted.')
+    print('Bot Aktif!')
 
 
 @bot.event
@@ -21,7 +21,7 @@ async def on_member_join(member):  # Sunucuya yeni birisi geldiğinde Hoş geldi
     channel2 = discord.utils.get(member.guild.text_channels, name=welcomelog)
     
     await member.add_roles(role)
-    await channel1.send(f'Aramıza hoş geldin <@{member.id}>. İyi eğlencelerrr :tada:', delete_after=5)
+    await channel1.send(f'Aramıza hoş geldin <@{member.id}>. İyi eğlenceler :tada:', delete_after=5)
     await channel2.send(f'{member} kullanıcısı sunucuya katıldı.')
 
 
