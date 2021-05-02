@@ -1,13 +1,9 @@
-# Discord-Python-Bot
+# Python ile bot geliştirmeye başlayanlar için piskopos tarafından geliştirilen basit bir discord botu!
 
-Hello Everyone,
+Sonunda piskopos NoneType D.Py kütüphanesine bakma fırsatı oldu ve üzerinde çalışmalara başladı.
 
-Finally I had the opportunity to look at discord.py and after 1 day of research I wrote this 6 command bot.
+• `settings` Dosyasını kendinize göre düzenleyip `python main.py` yazarak botu çalıştırabilirsiniz.
 
-Have a good day...
-
-"**_Özgür yazılım, Özgür topluluk_**"
-
-Commands;
+**Tüm Komutlar**
 
 Ban | Kick | Unban | Avatar | Rolver | Clear
