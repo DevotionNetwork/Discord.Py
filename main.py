@@ -105,6 +105,10 @@ async def rolver(ctx, member : discord.Member, role : discord.Role):
 
     else:
         await member.add_roles(role)
+        
+@bot.command()
+async def davet(ctx):
+    await ctx.send(f'discord.gg/devotion')
 
 bot.run(token)
 
