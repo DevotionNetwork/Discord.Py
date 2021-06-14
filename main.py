@@ -1,7 +1,7 @@
 import discord
 import asyncio
 from discord.ext import commands
-from settings import *
+from config import *
 
 intents = discord.Intents(members=True, presences=True, guilds=True, messages=True, reactions=True)
 
